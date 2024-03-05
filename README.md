@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
 </head>
-<body style="background-color: #0B005E;">
+<body style="background-color: lightskyblue;">
+<body style="background-color: #EAD6AE;">
     <hr>
-    <h1 title="Um grande projeto do prof Carlos" style="text-align: center; color: aqua; font-family: Verdana, Geneva, Tahoma, sans-serif;"> Meu Portifolio</h1>
+    <h1 style="font-size:55px; text-align: center; color: midnightblue; font-family: Verdana, Geneva, Tahoma, sans-serif;">MEU PORTIFÓLIO</h1>
     <hr>
-    <h1 style="text-align: center; color: aqua; font-family: Verdana, Geneva, Tahoma, sans-serif;">Quem sou?</h1>
-    <p style="font-size: 160%; color: aqua;">Eu sou Bejamim Sousa dos Santos, estudo no <a href="https://acailandia.ifma.edu.br/" style="color: cadetblue;">Instituto Federal do Maranhão</a>, estou cursando segundo ano de informática, moro no bairro Juscelino, sou cristão e pretendo trabalhar em alguma área  da saúde  </p>
+    <a style="font-size: 160%;" href="index.html">INÍCIO</a><h6></h6><a href="Projetos.html" target="_blank">PROJETOS</a><h6></h6><a href="Contatos.html" target="_blank">CONTATOS</a>
+    <h1 style="font-family: arial; color:  midnightblue; text-align: center; font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;">QUEM SOU?</h1>
+    <p style="font-family: arial;font-size: 120%; color: midnightblue; text-align: center; font-size: 160%;">Eu sou Benjamim Sousa, estudo no Instituto Federal do Maranhão, estou cursando o segundo ano de Informática e trabalho com o basico de algumas linguagens de progamação, como: python, Java e C++. Sou uma pessoa que coloco bastante responsabilidade nas tarefas que me são dadas e amo trabalhar em grupo.</p>
+    <h1 style="font-family: arial; color:  midnightblue; text-align: center; font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;">MINHAS QUALIDADES:</h1>
+    <p style="font-family: arial;font-size: 120%; color: midnightblue; text-align: center; font-size: 160%;">Gosto muito de atividades que envolvam trabalho coletivo, como esportes e trabalhos escolares em equipe, tento ao maximo ser bastante prestativo e ajudar as pessoas.</p>
+    <h1 style="text-align: center;"> Quem sou?</h1>
+    <p style="font-size: 160%;">Eu sou Bejamim Sousa dos Santos, estudo no <a href="https://acailandia.ifma.edu.br/">Instituto Federal do Maranhão</a>, estou cursando segundo ano de informática, moro no bairro Juscelino, sou cristão. pretendo trabalhar em alguma área  da saúde  </p>
     
 </body>
 </html>
