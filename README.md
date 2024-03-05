@@ -14,9 +14,7 @@
     <h1 style="font-family: arial; color:  midnightblue; text-align: center; font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;">QUEM SOU?</h1>
     <p style="font-family: arial;font-size: 120%; color: midnightblue; text-align: center; font-size: 160%;">Eu sou Benjamim Sousa, estudo no Instituto Federal do Maranhão, estou cursando o segundo ano de Informática e trabalho com o basico de algumas linguagens de progamação, como: python, Java e C++. Sou uma pessoa que coloco bastante responsabilidade nas tarefas que me são dadas e amo trabalhar em grupo.</p>
     <h1 style="font-family: arial; color:  midnightblue; text-align: center; font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;">MINHAS QUALIDADES:</h1>
-    <p style="font-family: arial;font-size: 120%; color: midnightblue; text-align: center; font-size: 160%;">Gosto muito de atividades que envolvam trabalho coletivo, como esportes e trabalhos escolares em equipe, tento ao maximo ser bastante prestativo e ajudar as pessoas.</p>
-    <h1 style="text-align: center;"> Quem sou?</h1>
-    <p style="font-size: 160%;">Eu sou Bejamim Sousa dos Santos, estudo no <a href="https://acailandia.ifma.edu.br/">Instituto Federal do Maranhão</a>, estou cursando segundo ano de informática, moro no bairro Juscelino, sou cristão. pretendo trabalhar em alguma área  da saúde  </p>
+    <p style="font-family: arial;font-size: 120%; color: midnightblue; text-align: center; font-size: 160%;">Gosto muito de ativ    idades que envolvam trabalho coletivo, como esportes e trabalhos escolares em equipe, tento ao maximo ser bastante prestativo e ajudar as pessoas.</p>
     
 </body>
 </html>
