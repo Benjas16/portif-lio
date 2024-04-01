@@ -5,7 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTATOS</title>
 </head>
-<body style="background-color: antiquewhite;">
-    <H1 style="text-align: center; color: brown;">MEUS CONTATOS</H1>
+<body style="background-color:lightskyblue;">
+    <H1 style="text-align: center; color: red;">MEUS CONTATOS</H1>
+    <hr>
+    <h3 style="color: brown;font-family: Verdana, Geneva, Tahoma, sans-serif; ">TELEFONE:(99)99223-0979</h3>
+    <h3 style="color: brown;font-family: Verdana, Geneva, Tahoma, sans-serif; ">EMAIL: <a href="mailto:sousa.benjamin@acad.ifma.edu.br">sousa.benjamin@acad.ifma.edu.br</a></h3>
+    <h3 style="color:brown;font-family: Verdana, Geneva, Tahoma, sans-serif; ">INSTAGRAM: <a href="https://www.instagram.com/benjamimsds?igsh=dDVlc3Fycm9rZjNn">@benjamimsds</a></h3>
+    <br>
+    <hr>
+    <br>
+    <form action="https://formsubmit.co/sousa.benjamin@acad.ifma.edu.br" method="post">
+    <label style=" margin: left 20px;;font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="name"><b>Digite seu nome:<b></label><br>
+        <input style="margin: left 20px;;" type="text" name="name" id="name" placeholder="Digite seu nome aqui" required>
+        <br><br>
+        <label style="margin: left 20px;;font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="email"><b>Digite seu email:<b></label><br>
+        <input style="margin: left 20px;;" type="email" name="email" id="email" placeholder="Digite seu email aqui" required>
+        <br><br>
+    </fieldset>
+    
+    <br><br>
+    <h4 style="margin: left 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue;margin-left: 20px; font-size: 150%;">Marque a área que sua profissao atua:</h4>
+    <input type="radio" name="profissao" id="profissao">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif ; color: darkblue; text-align: center; font-size: 105%;" for="profissao">Educação</label>
+    <br>
+    <input type="radio" name="profissao" id="profissao">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif ; color: darkblue; text-align: center; font-size: 105%;" for="profissao">Saúde</label>
+    <br>
+    <input type="radio" name="profissao" id="profissao">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="profissao">Segurança</label> 
+    <br>
+    <input type="radio" name="profissao" id="profissao">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="profissao">Tecnologia e informação</label>
+    <br>
+    <input type="radio" name="profissao" id="profissao">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="profissao">Outro</label> 
+    <br><br>
+    <h4 style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; margin-left: 20px; font-size: 110%;">Com qual dispositivo você está acessando o formulário?</h4>
+    <input type="radio" name="internet" id="internet" value="celular">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="internet">Celular</label>
+    <br>
+    <input type="radio" name="internet" id="internet" value="Banda Larga">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="internet">Notebook</label>
+    <br>
+    <input type="radio" name="internet" id="internet" value="Banda Larga">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="internet">Tablet</label>
+    <br>
+    <input type="radio" name="internet" id="internet" value="PC">
+    <label style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; text-align: center; font-size: 105%;" for="internet">PC</label>
+    <br>
+    <br><br>
+    
+    <h4 style="margin-left: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkblue; font-size: 180%;">Estado que você nasceu:</h4>
+    <select name="localidade" id="local">
+        <option value="Nenhum">Nenhum</option>
+        <option value="Maranhao">Maranhão</option>
+        <option value="Para">Pará</option>
+        <option value="Piaiu">Piauí</option>
+        <option value="Bahia">Bahia</option>
+    </select>
+    <br><br>
+
+    <textarea name="coment" id="coment" cols="30" rows="3" placeholder="Digite uma mensagem para o professor" ></textarea>
+
+    <br><br>
+
+    <button type="submit" class="enviar">Enviar</button>
+
+    <input type="hidden" name="_subject" value="Formulário recebido!">
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="_captcha" value="false">
+
+
+
+    </form>
 </body>
 </html>
