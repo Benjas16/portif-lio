@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Barra de navegação e menu */
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 1.5rem;
+    background: midnightblue;
+    z-index: 1000;
+}
+
+.logo-container {
+    max-width: 90px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu-links li {
+    list-style-type: none;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.menu-links li:hover {
+    background: lightskyblue;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.line {
+    width: 32px;
+    height: 2px;
+    margin: 9px;
+    background: white;
+    transition: 0.6s;
+}
+
+@media (max-width: 768px) {
+    .menu-mobile {
+        display: block;
+    }
+    .menu-links {
+        display: none;
+    }
+    .menu-mobile.active #line1{
+        transform: translateY(280%) rotate(-45deg);
+    }
+    .menu-mobile.active #line2{
+        transform: translateY(-280%) rotate(45deg);
+    }
+    .menu {
+        position: absolute;
+        width: 100%;
+        background: rgba(25, 25, 112, 0.5);
+        z-index: 1;
+        transition: .4s;
+        margin-top: 13px;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        transform: translateY(-45%);
+    }
+    .menu li {
+        list-style-type: none;
+        padding: 1rem;
+    }
+    .menu.active {
+        transform: translateY(86px);
+    }
+    .animation-links-menu {
+        animation: fade-in .6s;
+    }
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+            filter: blur(5px);
+            transform: translateX(30px);
+        }
+        100% {
+            opacity: 1;
+            filter: none;
+            transform: translateX(0);
+        }
+    }
+}
+
+/* Título */
+
+.title {
+    padding-top: 99px;
+}
