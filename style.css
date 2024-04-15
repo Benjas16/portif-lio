@@ -125,3 +125,28 @@
 .title {
     padding-top: 99px;
 }
+
+.menu-links {
+    margin: 0; /* Remova a margem padrão */
+    padding: 0; /* Remova o preenchimento padrão */
+    display: flex;
+    justify-content: space-between; /* Distribui os itens igualmente */
+}
+
+.menu-links li {
+    margin-right: 20px; /* Ajuste o espaçamento entre os itens do menu */
+}
+
+/* Estilo para o menu mobile */
+.menu {
+    display: none; /* Esconda o menu no desktop */
+}
+
+/* Estilo para o ícone do menu mobile */
+.menu-mobile {
+    display: block; /* Exiba o ícone do menu mobile */
+    cursor: pointer;
+}
+
+/* Outros estilos (mantenha o que você já tem) */
+/* ... */
